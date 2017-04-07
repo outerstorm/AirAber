@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Watch Extension/BoardingPassInterfaceController.swift"
+            timestampString = "513273267.184356"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "didAppear()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Watch_Extension.BoardingPassInterfaceController.(didAppear () -&gt; ()).(closure #1)"
+                  moduleName = "Watch Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justinstorm/Documents/Code/AirAber/Watch%20Extension/BoardingPassInterfaceController.swift"
+                  timestampString = "513277018.771225"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Watch_Extension.BoardingPassInterfaceController.(didAppear () -&gt; ()).(closure #1)"
+                  moduleName = "Watch Extension"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/justinstorm/Documents/Code/AirAber/Watch%20Extension/BoardingPassInterfaceController.swift"
+                  timestampString = "513277018.77853"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "324">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

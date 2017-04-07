@@ -18,6 +18,10 @@
 		7B8FA28D1B72893300B1E765 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA28A1B72893300B1E765 /* UIImageViewExtension.swift */; };
 		D00396D31E97C379004AD8F5 /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00396D21E97C379004AD8F5 /* ScheduleInterfaceController.swift */; };
 		D00396D51E97C862004AD8F5 /* FlightRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00396D41E97C862004AD8F5 /* FlightRowController.swift */; };
+		D01675CB1E97D0A8000EBB73 /* CheckInInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01675CA1E97D0A8000EBB73 /* CheckInInterfaceController.swift */; };
+		D01675CD1E97DB77000EBB73 /* BoardingPassInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01675CC1E97DB77000EBB73 /* BoardingPassInterfaceController.swift */; };
+		D01675CF1E97E79C000EBB73 /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01675CE1E97E79C000EBB73 /* WatchSessionManager.swift */; };
+		D01675D01E97E7C0000EBB73 /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01675CE1E97E79C000EBB73 /* WatchSessionManager.swift */; };
 		D065CD841E96BF8F00289E1C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D065CD821E96BF8F00289E1C /* Interface.storyboard */; };
 		D065CD861E96BF9000289E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D065CD851E96BF9000289E1C /* Assets.xcassets */; };
 		D065CD8D1E96BF9000289E1C /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D065CD8C1E96BF9000289E1C /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -86,6 +90,11 @@
 		7B8FA28A1B72893300B1E765 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		D00396D21E97C379004AD8F5 /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
 		D00396D41E97C862004AD8F5 /* FlightRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightRowController.swift; sourceTree = "<group>"; };
+		D01675CA1E97D0A8000EBB73 /* CheckInInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInInterfaceController.swift; sourceTree = "<group>"; };
+		D01675CC1E97DB77000EBB73 /* BoardingPassInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardingPassInterfaceController.swift; sourceTree = "<group>"; };
+		D01675CE1E97E79C000EBB73 /* WatchSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatchSessionManager.swift; sourceTree = "<group>"; };
+		D01675D11E97FB3C000EBB73 /* AirAber.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AirAber.entitlements; sourceTree = "<group>"; };
+		D01675D21E97FB61000EBB73 /* Watch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Watch.entitlements; sourceTree = "<group>"; };
 		D065CD801E96BF8F00289E1C /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D065CD831E96BF8F00289E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		D065CD851E96BF9000289E1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,6 +152,7 @@
 		7B8FA23B1B72275A00B1E765 /* AirAber */ = {
 			isa = PBXGroup;
 			children = (
+				D01675D11E97FB3C000EBB73 /* AirAber.entitlements */,
 				7B8FA2861B72893300B1E765 /* Vendor */,
 				7B8FA23C1B72275A00B1E765 /* AppDelegate.swift */,
 				7B8FA23E1B72275A00B1E765 /* ViewController.swift */,
@@ -159,6 +169,7 @@
 			children = (
 				7B8FA27C1B724A7400B1E765 /* Flights.json */,
 				7B8FA27F1B724A9900B1E765 /* Flight.swift */,
+				D01675CE1E97E79C000EBB73 /* WatchSessionManager.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -183,6 +194,7 @@
 		D065CD811E96BF8F00289E1C /* Watch */ = {
 			isa = PBXGroup;
 			children = (
+				D01675D21E97FB61000EBB73 /* Watch.entitlements */,
 				D065CD821E96BF8F00289E1C /* Interface.storyboard */,
 				D065CD851E96BF9000289E1C /* Assets.xcassets */,
 				D065CD871E96BF9000289E1C /* Info.plist */,
@@ -193,9 +205,11 @@
 		D065CD901E96BF9000289E1C /* Watch Extension */ = {
 			isa = PBXGroup;
 			children = (
-				D065CD931E96BF9000289E1C /* FlightInterfaceController.swift */,
-				D00396D41E97C862004AD8F5 /* FlightRowController.swift */,
 				D00396D21E97C379004AD8F5 /* ScheduleInterfaceController.swift */,
+				D00396D41E97C862004AD8F5 /* FlightRowController.swift */,
+				D065CD931E96BF9000289E1C /* FlightInterfaceController.swift */,
+				D01675CA1E97D0A8000EBB73 /* CheckInInterfaceController.swift */,
+				D01675CC1E97DB77000EBB73 /* BoardingPassInterfaceController.swift */,
 				D065CD951E96BF9000289E1C /* ExtensionDelegate.swift */,
 				D065CD971E96BF9000289E1C /* NotificationController.swift */,
 				D065CD991E96BF9000289E1C /* Assets.xcassets */,
@@ -283,11 +297,21 @@
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = ZBDQM5KN5Q;
 						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					D065CD7F1E96BF8F00289E1C = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = ZBDQM5KN5Q;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					D065CD8B1E96BF9000289E1C = {
 						CreatedOnToolsVersion = 8.3;
@@ -353,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D01675D01E97E7C0000EBB73 /* WatchSessionManager.swift in Sources */,
 				7B8FA2801B724A9900B1E765 /* Flight.swift in Sources */,
 				7B8FA28D1B72893300B1E765 /* UIImageViewExtension.swift in Sources */,
 				7B8FA23F1B72275A00B1E765 /* ViewController.swift in Sources */,
@@ -367,8 +392,11 @@
 			files = (
 				D065CD981E96BF9000289E1C /* NotificationController.swift in Sources */,
 				D065CDA81E96C12B00289E1C /* Flight.swift in Sources */,
+				D01675CD1E97DB77000EBB73 /* BoardingPassInterfaceController.swift in Sources */,
+				D01675CB1E97D0A8000EBB73 /* CheckInInterfaceController.swift in Sources */,
 				D00396D51E97C862004AD8F5 /* FlightRowController.swift in Sources */,
 				D00396D31E97C379004AD8F5 /* ScheduleInterfaceController.swift in Sources */,
+				D01675CF1E97E79C000EBB73 /* WatchSessionManager.swift in Sources */,
 				D065CD961E96BF9000289E1C /* ExtensionDelegate.swift in Sources */,
 				D065CD941E96BF9000289E1C /* FlightInterfaceController.swift in Sources */,
 			);
