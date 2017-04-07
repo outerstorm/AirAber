@@ -16,6 +16,8 @@
 		7B8FA2801B724A9900B1E765 /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA27F1B724A9900B1E765 /* Flight.swift */; };
 		7B8FA28C1B72893300B1E765 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA2891B72893300B1E765 /* QRCode.swift */; };
 		7B8FA28D1B72893300B1E765 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8FA28A1B72893300B1E765 /* UIImageViewExtension.swift */; };
+		D00396D31E97C379004AD8F5 /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00396D21E97C379004AD8F5 /* ScheduleInterfaceController.swift */; };
+		D00396D51E97C862004AD8F5 /* FlightRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00396D41E97C862004AD8F5 /* FlightRowController.swift */; };
 		D065CD841E96BF8F00289E1C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D065CD821E96BF8F00289E1C /* Interface.storyboard */; };
 		D065CD861E96BF9000289E1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D065CD851E96BF9000289E1C /* Assets.xcassets */; };
 		D065CD8D1E96BF9000289E1C /* Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D065CD8C1E96BF9000289E1C /* Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -82,6 +84,8 @@
 		7B8FA27F1B724A9900B1E765 /* Flight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
 		7B8FA2891B72893300B1E765 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 		7B8FA28A1B72893300B1E765 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		D00396D21E97C379004AD8F5 /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
+		D00396D41E97C862004AD8F5 /* FlightRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightRowController.swift; sourceTree = "<group>"; };
 		D065CD801E96BF8F00289E1C /* Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D065CD831E96BF8F00289E1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		D065CD851E96BF9000289E1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -190,6 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				D065CD931E96BF9000289E1C /* FlightInterfaceController.swift */,
+				D00396D41E97C862004AD8F5 /* FlightRowController.swift */,
+				D00396D21E97C379004AD8F5 /* ScheduleInterfaceController.swift */,
 				D065CD951E96BF9000289E1C /* ExtensionDelegate.swift */,
 				D065CD971E96BF9000289E1C /* NotificationController.swift */,
 				D065CD991E96BF9000289E1C /* Assets.xcassets */,
@@ -361,6 +367,8 @@
 			files = (
 				D065CD981E96BF9000289E1C /* NotificationController.swift in Sources */,
 				D065CDA81E96C12B00289E1C /* Flight.swift in Sources */,
+				D00396D51E97C862004AD8F5 /* FlightRowController.swift in Sources */,
+				D00396D31E97C379004AD8F5 /* ScheduleInterfaceController.swift in Sources */,
 				D065CD961E96BF9000289E1C /* ExtensionDelegate.swift in Sources */,
 				D065CD941E96BF9000289E1C /* FlightInterfaceController.swift in Sources */,
 			);
@@ -635,6 +643,7 @@
 				D065CDA11E96BF9000289E1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D065CDA31E96BF9000289E1C /* Build configuration list for PBXNativeTarget "Watch" */ = {
 			isa = XCConfigurationList;
@@ -643,6 +652,7 @@
 				D065CDA51E96BF9000289E1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
